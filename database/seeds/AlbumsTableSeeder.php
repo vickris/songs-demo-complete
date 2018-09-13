@@ -11,6 +11,6 @@ class AlbumsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Album', 5)->create();
+        factory('App\Album', 3)->create();
     }
 }
