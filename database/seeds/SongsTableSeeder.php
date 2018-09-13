@@ -11,6 +11,6 @@ class SongsTableSeeder extends Seeder
      */
     public function run()
     {
-        factory('App\Song', 10)->create();
+        factory('App\Song', 5)->create();
     }
 }
